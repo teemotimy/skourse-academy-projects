@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: #1f1d1c;
+    background-image: url('https://www.petersagan.com/wp-content/uploads/2020/10/bettiniphoto_0469171_1_originali_1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.container {
+    width: 75em;
+    background-color: #d8d8d8;
+    filter: drop-shadow(.25em .5em 1em #5c5c5c);
+    border-radius: 20px;
+    margin: 60em 0 2em;
+    color:#181717;
+}
+
+
+/* header */
+.header-line-break {
+    width: 95%;
+    margin: auto;
+    margin-top: 5em;
+}
+
+.header {
+    width: 100%;
+    height: 75px;
+    margin: 5em 0 .75em ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name {
+    font-size: 50px;
+}
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.nickname {
+    float: left;
+}
+
+ul {
+    list-style: none;
+}
+li {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.sub-headers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+h5 {
+    font-size: 25px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+/* image */
+
+.image-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5em;
+    width: 65em;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: .75em .75em 1em #686868;
+}
+
+img {
+    width: 62em;
+    padding: 20px;
+}
+
+.line-break {
+    width: 95%;
+    margin: auto;
+}
+
+
+/* section */
+
+section {
+    font-family: 'Libre Baskerville', serif;
+    width: 60em;
+    margin: auto;
+    padding-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* motto */
+.bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2.5em 0 .3em;
+}
+
+.bio h2 {
+    font-size: 3em;
+    margin: 1em 0 .25em;
+}
+
+.bio p {
+    font-size: 1.25em;
+    margin: .25em 0 1em;
+}
+
+
+
+
+/* icon */
+.table-icon {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    margin: .75em 2em;
+}
+nav {
+    position: absolute;
+}
+
+.table-down {
+    position: relative;
+    display: inline-block;
+
+    font-size: 1.5em;
+    color: #181717;
+}
+
+
+.table-down-container {
+    display: none;
+    position: absolute;
+    min-width: 450px;
+    font-size: .5em;
+    z-index: 1;
+
+    border-radius: .5em;
+    box-shadow: .25em .5em 1em #00000094;
+    background-color: #ebebeb;
+    font-size: .75em;
+    margin: .5em 0;
+}
+
+.table-img img {
+    width: 300px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.table-down-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Libre Baskerville', serif;
+    margin: 1em 0;
+}
+
+.table-down-content p {
+    font-size: 1em;
+    font-weight: 800;
+    margin: 0;
+}
+.table-down-content i {
+    font-size: .60em;
+    color: #181717;
+    width: 300px;
+    margin-top: 0;
+    padding-top: 0;
+}
+.table-down-content {
+    margin: 1em 0;
+}
+.table-down-content table {
+    width: 100%;
+    margin: 1em 0;
+    border-collapse: collapse;
+
+}
+
+th, td {
+    text-align: left;
+    font-size: .75em;
+    padding: .5em 0;
+    border-bottom: 1px solid #1817176e;
+}
+
+.p1 {
+    text-align: center;
+    background-color: #27262565;
+    border-bottom: none;
+}
+
+
+
+.table-down:hover .table-down-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* articles */
+article p {
+    text-indent: 10%;
+    text-align: justify;
+    line-height: 1.25em;
+    font-size: 1.5em;
+    margin: 1.75em 0;
+    padding: .75em 0;
+}
+
+a {
+    text-decoration: none;
+    color: #181717;
+    font-weight: 700;
+}
+
+a:hover {
+    color: #5e5e5e;
+}
+
+.bring-up {
+    color: #222222b0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5em 0;
+    font-size: 1.75em;
+}
+
+
+/* footer */
+footer {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em 0;
+}
+
+footer svg {
+    padding-right: 1em;
+}
+
+footer p {
+    font-size: .75;
+    font-family: 'Libre Baskerville', serif;
+}
+
+footer svg {
+    font-size: 1.5em;
+}
+.link {
+    line-height: .25em;
+}
